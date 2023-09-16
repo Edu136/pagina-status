@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@200&family=Raleway:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    box-sizing: border-box;
+    background-color: hsl(0, 0%, 100%);
+    height: 100vh;
+}
+.completo{
+    margin: 15% 15% 15% 15%;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    background-color:white; 
+}
+.resumo{
+    color: white;
+    background-color:hsla(219, 86%, 52%, 1);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;  
+    border-radius: 12px;
+    width: 50%;
+}
+.notas{
+    background-color: whitesmoke;
+    width: 50%;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    
+}
+.notas__reacao__total{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+}
+.notas__memoria__total{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+}
+.notas__verbal__total{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+}
+.notas__visual__total{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+}
+.notas__reacao__nota{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;    
+}
+.notas__memoria__nota{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.notas__verbal__nota{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;  
+}
+.notas__visual__nota{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;   
+}
+.notas__reacao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsla(16, 100%, 50%,0.3);
+    border-radius: 18px;
+    border: 2px solid hsl(16,100%,50%);
+    margin: 0 8% 0 8%;
+    padding: 4% 8%;
+    gap: 1%;
+}
+.notas__memoria{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: hsla(49, 100%, 50%, 0.3);
+    border-radius: 18px;
+    border: 2px solid hsl(49,100%,50%);
+    margin: 0 8% 0 8%;
+    padding: 4% 8%;
+    gap: 3%;
+}
+.notas__verbal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsla(138, 100%, 50%, 0.3);
+    border-radius: 18px;
+    border: 2px solid hsl(138,100%,50%);
+    margin: 0 8% 0 8%;
+    padding: 4% 8%;
+    gap: 3%;
+}
+.notas__visual{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsla(268, 100%, 50%, 0.3);
+    border-radius: 18px;
+    border: 2px solid hsl(268,100%,50%);
+    margin: 0 8% 0 8%;
+    padding: 4% 8%;
+    gap: 3%;
+}
+.notas__titulo{
+    margin-top: 5%;
+    font-family: 'Raleway' , sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;  
+}
+.resumo__titulo{
+    margin-top: 5%;
+    font-family: 'Raleway' , sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+}
+.resumo__numero{
+    width: 200px; /* Largura do círculo */
+    height: 200px; /* Altura do círculo */
+    background-color:hsla(260, 100%, 50%, 0.5); /* Cor de fundo do círculo */
+    border-radius: 50%; /* Torna o elemento circular */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 28%;
+}
+.resumo__numero__nota{   
+    font-family: 'Raleway', sans-serif;
+    font-size: 5rem;
+    font-weight: 800;   
+}
+.resumo__numero__total{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+}
+.notas__butao{
+    color: white;
+    font-family: 'Raleway', sans-serif; 
+    font-size: 1.5rem;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:hsla(219, 86%, 52%, 0.7);
+    border-radius: 19px;
+    border: 3px solid black;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 15%;
+    padding: 5%;
+    text-decoration: none;
+}
+.notas__reacao__nome{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.4rem;
+}
+.notas__memoria__nome{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.4rem;
+}
+.notas__verbal__nome{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.4rem; 
+}
+.notas__visual__nome{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.4rem; 
+}
+.resumo__subtitulo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 1000;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.resumo__descricao{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    margin: 0 12% 20% 12%;
+}
+@media(max-width:912px){
+    .completo{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0%;
+
+    }
+    .resumo{
+        width: auto;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 36px;
+        border-bottom-right-radius: 36px;
+        gap: 40px;
+    }
+    .resumo__numero{
+        width: 150px; /* Largura do círculo */
+        height: 150px;
+        margin: 3% 42% 0 42%;
+
+
+    }
+    .resumo__numero__nota{   
+        font-family: 'Raleway', sans-serif;
+        font-size: 3rem;
+        font-weight: 800;   
+    }
+    .resumo__numero__total{
+        font-family: 'Raleway', sans-serif;
+        font-size: 1rem;
+    }
+    .resumo__descricao{
+        margin: 5% 30% 5% 30%;
+        
+    }
+    .notas{
+        width: auto;
+    }  
+    .notas__reacao{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: hsla(16, 100%, 50%,0.3);
+        border-radius: 18px;
+        border: 2px solid hsl(16,100%,50%);
+        margin: 0 14% 0 14%;
+        padding: 3% 6%;
+        gap: 1%;
+    }
+    .notas__memoria{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: hsla(49, 100%, 50%, 0.3);
+        border-radius: 18px;
+        border: 2px solid hsl(49,100%,50%);
+        margin: 0 14% 0 14%;
+        padding: 3% 6%;
+        gap: 3%;
+    }
+    .notas__verbal{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: hsla(138, 100%, 50%, 0.3);
+        border-radius: 18px;
+        border: 2px solid hsl(138,100%,50%);
+        margin: 0 14% 0 14%;
+        padding: 3% 6%;
+        gap: 3%;
+    }
+    .notas__visual{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: hsla(268, 100%, 50%, 0.3);
+        border-radius: 18px;
+        border: 2px solid hsl(268,100%,50%);
+        margin: 0 14% 0 14%;
+        padding: 3% 6%;
+        gap: 3%;
+    }
+    .notas__butao{
+    color: white;
+    font-family: 'Raleway', sans-serif; 
+    font-size: 1.5rem;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:hsla(219, 86%, 52%, 0.7);
+    border-radius: 19px;
+    border: 3px solid black;
+    margin: 0% 30% 15% 30%;
+    padding: 4% 12%;
+    }
+}
